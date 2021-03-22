@@ -1,0 +1,47 @@
+[21-Mar-2021 22:37:13 UTC] PHP Fatal error:  Uncaught Exception: Wrong type string. It should be float for property unit_price in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat('1000,00', 'float', 'unit_price')
+#1 /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('unit_price', '1000,00')
+#2 /home/afenix1/public_html/mercadopago/preorder.php(91): MercadoPago\Entity->__set('unit_price', '1000,00')
+#3 /home/afenix1/public_html/mercadopago/preorder.php(14): criarpreferencia()
+#4 {main}
+  thrown in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[21-Mar-2021 22:37:32 UTC] PHP Fatal error:  Uncaught Exception: Wrong type string. It should be float for property unit_price in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat('1000,00', 'float', 'unit_price')
+#1 /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('unit_price', '1000,00')
+#2 /home/afenix1/public_html/mercadopago/preorder.php(91): MercadoPago\Entity->__set('unit_price', '1000,00')
+#3 /home/afenix1/public_html/mercadopago/preorder.php(14): criarpreferencia()
+#4 {main}
+  thrown in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[21-Mar-2021 22:44:54 UTC] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[21-Mar-2021 22:44:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[21-Mar-2021 22:45:14 UTC] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[21-Mar-2021 22:45:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[21-Mar-2021 22:46:04 UTC] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[21-Mar-2021 22:46:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[21-Mar-2021 22:46:39 UTC] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[21-Mar-2021 22:46:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[21-Mar-2021 22:47:32 UTC] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[21-Mar-2021 22:47:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[21-Mar-2021 22:57:24 UTC] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[21-Mar-2021 22:57:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[21-Mar-2021 22:59:17 UTC] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[21-Mar-2021 22:59:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[21-Mar-2021 23:03:43 UTC] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[21-Mar-2021 23:03:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[21-Mar-2021 23:09:18 UTC] {"message":"Bad JSON format","error":"bad_request","status":400,"cause":null}
+[21-Mar-2021 23:09:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Generic/RecuperableError.php on line 30
+[21-Mar-2021 23:09:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MercadoPago\SDK::setCollectorId() in /home/afenix1/public_html/mercadopago/preorder.php:22
+Stack trace:
+#0 /home/afenix1/public_html/mercadopago/preorder.php(234): criarpreferencia()
+#1 {main}
+  thrown in /home/afenix1/public_html/mercadopago/preorder.php on line 22
+[21-Mar-2021 23:10:03 UTC] PHP Fatal error:  Uncaught Exception: Error readOnly in attribute collector_id in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Manager.php:109
+Stack trace:
+#0 /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(363): MercadoPago\Manager->validateAttribute(Object(MercadoPago\Preference), 'collector_id', Array, '725736327')
+#1 /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('collector_id', '725736327')
+#2 /home/afenix1/public_html/mercadopago/preorder.php(33): MercadoPago\Entity->__set('collector_id', '725736327')
+#3 /home/afenix1/public_html/mercadopago/preorder.php(233): criarpreferencia()
+#4 {main}
+  thrown in /home/afenix1/public_html/mercadopago/vendor/mercadopago/dx-php/src/MercadoPago/Manager.php on line 109
